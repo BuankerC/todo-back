@@ -145,3 +145,5 @@ JWT_AUTH = {
     # 만료된 키를 재발급받는 기한
 }
 CORS_ORIGIN_ALLOW_ALL = True
+
+AUTH_USER_MODEL = "todos.User"
