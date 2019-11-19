@@ -10,4 +10,4 @@ class User(AbstractUser):
 class Todo(models.Model):
     user = models.ForeignKey(User, on_delete=models.CASCADE)
     title = models.CharField(max_length=100)
-    compeleted = models.BooleanField(default=False)
+    completed = models.BooleanField(default=False)
